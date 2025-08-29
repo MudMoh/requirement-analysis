@@ -108,8 +108,6 @@ Based on the case study and the functional requirements, the main actors and the
 
 #### Use Cases:
 
-Customer: Search for a Hotel, Register Account, Log In, Book a Hotel, View Booking Details, Cancel a Booking.
+- **Customer:** Search for a Hotel, Register Account, Log In, Book a Hotel, View Booking Details, Cancel a Booking.
 
-Hotel Manager: Manage Hotel Listings, Log In, View Booking Details.
-
-Here is a placeholder for the Use Case Diagram you will create:
+- **Hotel Manager:** Manage Hotel Listings, Log In, View Booking Details.
