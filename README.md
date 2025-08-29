@@ -43,3 +43,41 @@ Requirement analysis is a structured process that involves a series of interconn
 - **Requirement Analysis and Modeling:** In this phase, the documented requirements are analyzed to check for consistency, completeness, and feasibility. This is where you might create models, such as Use Case diagrams, to visually represent how the system should function. The goal is to refine the requirements and ensure they are well-structured before moving on to design and implementation.
 
 - **Requirement Validation:** This final activity involves reviewing the requirements with stakeholders to ensure they accurately reflect their needs. It is a quality assurance step to confirm that the documented requirements are correct, complete, and meet the business objectives. Validation helps to avoid costly errors later in the development cycle.
+
+## Types of Requirements
+
+Requirements are typically categorized into two main types: functional and non-functional. Both are essential for defining a complete and successful software system.
+
+### Functional Requirements
+
+Functional requirements describe what the system must do. They define the specific actions or functions of the software, and they are typically based on the user's needs. These requirements are observable by the end-user.
+
+For the booking management system, examples of functional requirements include:
+
+- **User Authentication:** The system must allow users to register an account and log in.
+
+- **Search for Properties:** The system must allow customers to search for available hotels based on criteria such as location, dates, and number of guests.
+
+- **Book a Hotel:** The system must allow customers to select a hotel and complete a booking, including payment processing.
+
+- **Manage Property Listings:** The system must allow hotel managers to add, edit, and remove their hotel listings, including room availability and pricing.
+
+- **View Bookings:** The system must allow both customers and managers to view and manage their booking history.
+
+- **Send Notifications:** The system must send notifications to both customers and managers upon a successful booking, cancellation, or change in status.
+
+### Non-functional Requirements
+
+Non-functional requirements describe how the system should perform. They define the quality attributes of the software and are not directly related to the system's functions but are critical for its overall success. These requirements often relate to performance, security, and scalability.
+
+For the booking management system, examples of non-functional requirements from the case study include:
+
+- **Performance:** The search functionality should be fast, providing results within a few seconds, even with a high volume of concurrent users. The use of Elasticsearch and Redis in the case study architecture directly supports this requirement.
+
+- **Scalability:** The system must be able to handle a high amount of user traffic and process a large number of requests without degrading performance. The microservice architecture and master-slave database setup described in the case study are key to meeting this requirement.
+
+- **Security:** The payment service must securely handle credit card information and protect user data from unauthorized access.
+
+- **Availability:** The system should be highly available, with minimal downtime to ensure customers can book hotels at any time.
+
+- **Reliability:** The system must maintain data integrity and consistency, especially with regards to booking and payment information.
