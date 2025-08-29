@@ -113,3 +113,39 @@ Based on the case study and the functional requirements, the main actors and the
 - **Hotel Manager:** Manage Hotel Listings, Log In, View Booking Details.
 
 ![Use case Diagram for the Booking System](alx-booking-uc.png)
+
+## Acceptance Criteria
+
+Acceptance Criteria (AC) are a set of predefined conditions that a software feature must meet to be considered complete and functional. They are a critical component of requirement analysis because they provide clear, testable, and unambiguous standards for both developers and quality assurance teams. Unlike high-level functional requirements, which state what the system does, acceptance criteria specify the exact behavior and expected outcomes. They define the "pass" or "fail" conditions for a given user story or feature, helping to prevent ambiguity and ensure that the final product aligns with stakeholder expectations.
+
+A common format for writing acceptance criteria is the Given-When-Then template, which provides a simple, structured way to describe a scenario.
+
+**Example: Checkout Feature Acceptance Criteria**
+
+Here is an example of acceptance criteria for the "Checkout" feature in the booking management system:
+
+**Feature:** Checkout Process
+
+**Scenario:** Successful Payment for a Single Booking
+
+- Given a customer has a booking added to their cart.
+
+- When the customer provides valid payment information and clicks the "Complete Booking" button.
+
+- Then the system should process the payment successfully.
+
+- And the booking status should be updated to "Confirmed" in the database.
+
+- And the customer should receive an email confirmation with the booking details.
+
+- And the hotel manager should receive a notification of the new booking.
+
+**Scenario:** Insufficient Funds
+
+- Given a customer has a booking added to their cart.
+
+- When the customer provides valid card information but the payment fails due to insufficient funds.
+
+- Then the system should display an error message: "Payment failed. Please check your funds or try a different card."
+
+- And the booking status should remain "Pending" or "Canceled" and not be confirmed.
