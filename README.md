@@ -111,3 +111,5 @@ Based on the case study and the functional requirements, the main actors and the
 - **Customer:** Search for a Hotel, Register Account, Log In, Book a Hotel, View Booking Details, Cancel a Booking.
 
 - **Hotel Manager:** Manage Hotel Listings, Log In, View Booking Details.
+
+![Use case Diagram for the Booking System](alx-booking-uc.png)
