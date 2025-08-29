@@ -81,3 +81,35 @@ For the booking management system, examples of non-functional requirements from 
 - **Availability:** The system should be highly available, with minimal downtime to ensure customers can book hotels at any time.
 
 - **Reliability:** The system must maintain data integrity and consistency, especially with regards to booking and payment information.
+
+## Use Case Diagrams
+
+Use Case Diagrams are a powerful tool used in software engineering to visually represent the interactions between users (actors) and a system. They provide a high-level view of the system's functionality and help to clarify the system's scope from the user's perspective.
+
+### Benefits of Use Case Diagrams:
+
+- **Clarity and Simplicity:** They offer a straightforward way to understand the system's functions without getting lost in technical details.
+
+- **Communication Tool:** They serve as an excellent communication tool between stakeholders, business analysts, and developers, ensuring everyone has a shared understanding of the system's behavior.
+
+- **Scope Definition:** They clearly define the boundaries of the system and what is included in the project, helping to prevent "scope creep."
+
+- **Basis for Test Cases:** They can be used to derive test cases, as each use case represents a specific user interaction that needs to be validated.
+
+### Use Case Diagram for the Booking Management System
+
+Based on the case study and the functional requirements, the main actors and their interactions with the system are as follows:
+
+#### Actors:
+
+- **Customer/Guest:** The end-user of the system who searches and books hotels.
+
+- **Hotel Manager:** The user responsible for managing hotel listings and viewing bookings.
+
+#### Use Cases:
+
+Customer: Search for a Hotel, Register Account, Log In, Book a Hotel, View Booking Details, Cancel a Booking.
+
+Hotel Manager: Manage Hotel Listings, Log In, View Booking Details.
+
+Here is a placeholder for the Use Case Diagram you will create:
